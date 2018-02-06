@@ -1,4 +1,5 @@
 import csv
+clear()
 voter_id = []
 can = []
 ucan = []
@@ -7,7 +8,7 @@ canvote = []
 ucann = []
 winner = ''
 winnerv = 0
-with open('data_pollex.csv','r') as csvfile:
+with open('election_data_1.csv','r') as csvfile:
     csv_reader = csv.reader(csvfile, delimiter = ',')
     next(csv_reader)
     for r in csv_reader:
