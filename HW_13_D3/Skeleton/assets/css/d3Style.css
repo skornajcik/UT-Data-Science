@@ -1,0 +1,22 @@
+/* Students:
+ * =========
+ * Add styling to your d3 chart with this file. */
+ .tooltip {
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    padding: 3px;
+    padding-top: 5px;
+    font: 10px sans-serif;
+    color: blueviolet;
+    text-align: center;
+    background: grey;
+    border: 0;
+    border-radius: 10px;
+  }
+  .axisText {
+    font-family: sans-serif;
+    font-weight: bold;
+    fill: #551aaf;
+    text-anchor: middle;
+  }
